@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding: 40px 100px;
 }
 
 .App-logo {
@@ -35,4 +36,96 @@
   to {
     transform: rotate(360deg);
   }
+}
+.idCard {
+  display: flex;
+  align-items: center;
+  border: #282c34 2px solid;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+.idCardInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+.idCardInfo p {
+  margin: 2px;
+}
+
+.greetings p {
+  font-size: 30px;
+  border: #282c34 2px solid;
+}
+
+.random p {
+  font-size: 30px;
+  border: #282c34 2px solid;
+}
+.boxColor div {
+  border: #282c34 2px solid;
+  height: 70px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.creditCards {
+  display: flex;
+  justify-content: space-evenly;
+}
+.creditCard {
+  padding: 30px;
+  border-radius: 10px;
+}
+.creditCard .info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+.creditCard h6 {
+  margin: 0;
+  padding-top: 20px !important;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+.creditCard .info p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.cardImage {
+  display: flex;
+  justify-content: flex-end;
+}
+.cardImage img {
+  max-width: 50px;
+}
+
+.driverCards {
+  color: white;
+  display: flex;
+  background-color: darkslateblue;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 20px;
+  font-size: 20px;
+  border-radius: 8px;
+}
+.driverCards img {
+  max-height: 40px;
+
+  border-radius: 100%;
+}
+.driverInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.driverInfo p {
+  margin: 2px 20px;
 }
